@@ -1,0 +1,2555 @@
+.offerwall-widget-heading .offerwall-heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-image .widget-image-caption {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-text-editor {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-text-editor.offerwall-drop-cap-view-stacked
+  .offerwall-drop-cap {
+  background-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-text-editor.offerwall-drop-cap-view-framed
+  .offerwall-drop-cap,
+.offerwall-widget-text-editor.offerwall-drop-cap-view-default
+  .offerwall-drop-cap {
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-button .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: #ffd000;
+}
+
+.offerwall-widget-divider {
+  --divider-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-divider .offerwall-divider__text {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-divider.offerwall-view-stacked .offerwall-icon {
+  background-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-divider.offerwall-view-framed .offerwall-icon,
+.offerwall-widget-divider.offerwall-view-default .offerwall-icon {
+  color: var(--e-global-color-secondary);
+  border-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-divider.offerwall-view-framed .offerwall-icon,
+.offerwall-widget-divider.offerwall-view-default .offerwall-icon svg {
+  fill: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-image-box .offerwall-image-box-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-image-box .offerwall-image-box-description {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-icon.offerwall-view-stacked .offerwall-icon {
+  background-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon.offerwall-view-framed .offerwall-icon,
+.offerwall-widget-icon.offerwall-view-default .offerwall-icon {
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon.offerwall-view-framed .offerwall-icon,
+.offerwall-widget-icon.offerwall-view-default .offerwall-icon svg {
+  fill: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-box.offerwall-view-stacked .offerwall-icon {
+  background-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-box.offerwall-view-framed .offerwall-icon,
+.offerwall-widget-icon-box.offerwall-view-default .offerwall-icon {
+  fill: var(--e-global-color-primary);
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-box .offerwall-icon-box-title {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-box .offerwall-icon-box-title,
+.offerwall-widget-icon-box .offerwall-icon-box-title a {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-icon-box .offerwall-icon-box-description {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-star-rating .offerwall-star-rating__title {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-image-gallery .gallery-item .gallery-caption {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-icon-list .offerwall-icon-list-item:not(:last-child):after {
+  border-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-icon-list .offerwall-icon-list-icon i {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-list .offerwall-icon-list-icon svg {
+  fill: var(--e-global-color-primary);
+}
+
+.offerwall-widget-icon-list .offerwall-icon-list-text {
+  color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-icon-list
+  .offerwall-icon-list-item
+  > .offerwall-icon-list-text,
+.offerwall-widget-icon-list .offerwall-icon-list-item > a {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-counter .offerwall-counter-number-wrapper {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-counter .offerwall-counter-title {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-progress .offerwall-progress-wrapper .offerwall-progress-bar {
+  background-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-progress .offerwall-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-testimonial .offerwall-testimonial-content {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-testimonial .offerwall-testimonial-name {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-testimonial .offerwall-testimonial-job {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-tabs .offerwall-tab-title,
+.offerwall-widget-tabs .offerwall-tab-title a {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-tabs .offerwall-tab-title.offerwall-active,
+.offerwall-widget-tabs .offerwall-tab-title.offerwall-active a {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-tabs .offerwall-tab-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-tabs .offerwall-tab-content {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-accordion .offerwall-accordion-icon,
+.offerwall-widget-accordion .offerwall-accordion-title {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-accordion .offerwall-accordion-icon svg {
+  fill: var(--e-global-color-primary);
+}
+
+.offerwall-widget-accordion .offerwall-active .offerwall-accordion-icon,
+.offerwall-widget-accordion .offerwall-active .offerwall-accordion-title {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-accordion .offerwall-active .offerwall-accordion-icon svg {
+  fill: var(--e-global-color-accent);
+}
+
+.offerwall-widget-accordion .offerwall-accordion-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-accordion .offerwall-tab-content {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-toggle .offerwall-toggle-title,
+.offerwall-widget-toggle .offerwall-toggle-icon {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-toggle .offerwall-toggle-icon svg {
+  fill: var(--e-global-color-primary);
+}
+
+.offerwall-widget-toggle .offerwall-tab-title.offerwall-active a,
+.offerwall-widget-toggle
+  .offerwall-tab-title.offerwall-active
+  .offerwall-toggle-icon {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-toggle .offerwall-toggle-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-toggle .offerwall-tab-content {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-alert .offerwall-alert-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-alert .offerwall-alert-description {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-text-path {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-theme-site-logo .widget-image-caption {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-theme-site-title .offerwall-heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-theme-page-title .offerwall-heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-theme-post-title .offerwall-heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-theme-post-excerpt .offerwall-widget-container {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-theme-post-content {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-theme-post-featured-image .widget-image-caption {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-theme-archive-title .offerwall-heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-post__title,
+.offerwall-widget-archive-posts .offerwall-post__title a {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-post__meta-data {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-post__excerpt p {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-post__read-more {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-archive-posts a.offerwall-post__read-more {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-archive-posts .offerwall-post__card .offerwall-post__badge {
+  background-color: var(--e-global-color-accent);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-archive-posts .offerwall-pagination {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-archive-posts .e-load-more-message {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-archive-posts .offerwall-posts-nothing-found {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-posts .offerwall-post__title,
+.offerwall-widget-posts .offerwall-post__title a {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-posts .offerwall-post__meta-data {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-posts .offerwall-post__excerpt p {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-posts .offerwall-post__read-more {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-posts a.offerwall-post__read-more {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-posts .offerwall-post__card .offerwall-post__badge {
+  background-color: var(--e-global-color-accent);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-posts .offerwall-pagination {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-posts .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-posts .e-load-more-message {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-portfolio a .offerwall-portfolio-item__overlay {
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-portfolio .offerwall-portfolio-item__title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-portfolio .offerwall-portfolio__filter {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-portfolio .offerwall-portfolio__filter.offerwall-active {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-gallery .offerwall-gallery-item__title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-gallery .offerwall-gallery-item__description {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-gallery {
+  --galleries-title-color-normal: var(--e-global-color-primary);
+  --galleries-title-color-hover: var(--e-global-color-secondary);
+  --galleries-pointer-bg-color-hover: var(--e-global-color-accent);
+  --gallery-title-color-active: var(--e-global-color-secondary);
+  --galleries-pointer-bg-color-active: var(--e-global-color-accent);
+}
+
+.offerwall-widget-gallery .offerwall-gallery-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-form .offerwall-field-group > label,
+.offerwall-widget-form .offerwall-field-subgroup label {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-form .offerwall-field-group > label {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-form .offerwall-field-type-html {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-form .offerwall-field-group .offerwall-field {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-form .offerwall-field-group .offerwall-field,
+.offerwall-widget-form .offerwall-field-subgroup label {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-form .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-form .e-form__buttons__wrapper__button-next {
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-form .offerwall-button[type="submit"] {
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-form .e-form__buttons__wrapper__button-previous {
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-form .offerwall-message {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-form .e-form__indicators__indicator,
+.offerwall-widget-form .e-form__indicators__indicator__label {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-form {
+  --e-form-steps-indicator-inactive-primary-color: var(--e-global-color-text);
+  --e-form-steps-indicator-active-primary-color: var(--e-global-color-accent);
+  --e-form-steps-indicator-completed-primary-color: var(
+    --e-global-color-accent
+  );
+  --e-form-steps-indicator-progress-color: var(--e-global-color-accent);
+  --e-form-steps-indicator-progress-background-color: var(
+    --e-global-color-text
+  );
+  --e-form-steps-indicator-progress-meter-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-form .e-form__indicators__indicator__progress__meter {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-login .offerwall-field-group > a {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-login .offerwall-field-group > a:hover {
+  color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-login .offerwall-form-fields-wrapper label {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-login .offerwall-field-group .offerwall-field {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-login .offerwall-field-group .offerwall-field,
+.offerwall-widget-login .offerwall-field-subgroup label {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-login .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-login
+  .offerwall-widget-container
+  .offerwall-login__logged-in-message {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-slides .offerwall-slide-heading {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-slides .offerwall-slide-description {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-slides .offerwall-slide-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-nav-menu .offerwall-nav-menu .offerwall-item {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-nav-menu .offerwall-nav-menu--main .offerwall-item {
+  color: var(--e-global-color-text);
+  fill: var(--e-global-color-text);
+}
+
+.offerwall-widget-nav-menu .offerwall-nav-menu--main .offerwall-item:hover,
+.offerwall-widget-nav-menu
+  .offerwall-nav-menu--main
+  .offerwall-item.offerwall-item-active,
+.offerwall-widget-nav-menu
+  .offerwall-nav-menu--main
+  .offerwall-item.highlighted,
+.offerwall-widget-nav-menu .offerwall-nav-menu--main .offerwall-item:focus {
+  color: var(--e-global-color-accent);
+  fill: var(--e-global-color-accent);
+}
+
+.offerwall-widget-nav-menu
+  .offerwall-nav-menu--main:not(.e--pointer-framed)
+  .offerwall-item:before,
+.offerwall-widget-nav-menu
+  .offerwall-nav-menu--main:not(.e--pointer-framed)
+  .offerwall-item:after {
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-nav-menu .e--pointer-framed .offerwall-item:before,
+.offerwall-widget-nav-menu .e--pointer-framed .offerwall-item:after {
+  border-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-nav-menu {
+  --e-nav-menu-divider-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-nav-menu .offerwall-nav-menu--dropdown .offerwall-item,
+.offerwall-widget-nav-menu .offerwall-nav-menu--dropdown .offerwall-sub-item {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-animated-headline .offerwall-headline-dynamic-wrapper path {
+  stroke: var(--e-global-color-accent);
+}
+
+.offerwall-widget-animated-headline .offerwall-headline-plain-text {
+  color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-animated-headline .offerwall-headline {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-animated-headline {
+  --dynamic-text-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-animated-headline .offerwall-headline-dynamic-text {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-hotspot .widget-image-caption {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-hotspot {
+  --hotspot-color: var(--e-global-color-primary);
+  --hotspot-box-color: var(--e-global-color-secondary);
+  --tooltip-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-hotspot .e-hotspot__label {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-hotspot .e-hotspot__tooltip {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-price-list .offerwall-price-list-header {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-price-list .offerwall-price-list-price {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-price-list .offerwall-price-list-description {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-price-list .offerwall-price-list-separator {
+  border-bottom-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-price-table {
+  --e-price-table-header-background-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__heading {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__subheading {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-price-table
+  .offerwall-price-table
+  .offerwall-price-table__price {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__original-price {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__period {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__features-list {
+  --e-price-table-features-list-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__features-list li {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__features-list li:before {
+  border-top-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__additional_info {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-price-table .offerwall-price-table__ribbon-inner {
+  background-color: var(--e-global-color-accent);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-flip-box
+  .offerwall-flip-box__front
+  .offerwall-flip-box__layer__title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-flip-box
+  .offerwall-flip-box__front
+  .offerwall-flip-box__layer__description {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-flip-box
+  .offerwall-flip-box__back
+  .offerwall-flip-box__layer__title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-flip-box
+  .offerwall-flip-box__back
+  .offerwall-flip-box__layer__description {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-flip-box .offerwall-flip-box__button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-call-to-action .offerwall-cta__title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-call-to-action .offerwall-cta__description {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-call-to-action .offerwall-cta__button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-call-to-action .offerwall-ribbon-inner {
+  background-color: var(--e-global-color-accent);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-media-carousel .offerwall-carousel-image-overlay {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-testimonial-carousel .offerwall-testimonial__text {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-testimonial-carousel .offerwall-testimonial__name {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-testimonial-carousel .offerwall-testimonial__title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-reviews .offerwall-testimonial__header,
+.offerwall-widget-reviews .offerwall-testimonial__name {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-reviews .offerwall-testimonial__text {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-table-of-contents {
+  --header-color: var(--e-global-color-secondary);
+  --item-text-color: var(--e-global-color-text);
+  --item-text-hover-color: var(--e-global-color-accent);
+  --marker-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-table-of-contents .offerwall-toc__header,
+.offerwall-widget-table-of-contents .offerwall-toc__header-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-table-of-contents .offerwall-toc__list-item {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-countdown .offerwall-countdown-item {
+  background-color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-countdown .offerwall-countdown-digits {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-countdown .offerwall-countdown-label {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-countdown .offerwall-countdown-expire--message {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-search-form
+  input[type="search"].offerwall-search-form__input {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-search-form .offerwall-search-form__input,
+.offerwall-widget-search-form .offerwall-search-form__icon,
+.offerwall-widget-search-form .offerwall-lightbox .dialog-lightbox-close-button,
+.offerwall-widget-search-form
+  .offerwall-lightbox
+  .dialog-lightbox-close-button:hover,
+.offerwall-widget-search-form.offerwall-search-form--skin-full_screen
+  input[type="search"].offerwall-search-form__input {
+  color: var(--e-global-color-text);
+  fill: var(--e-global-color-text);
+}
+
+.offerwall-widget-search-form .offerwall-search-form__submit {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+  background-color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-author-box .offerwall-author-box__name {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-author-box .offerwall-author-box__bio {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-author-box .offerwall-author-box__button {
+  color: var(--e-global-color-secondary);
+  border-color: var(--e-global-color-secondary);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-author-box .offerwall-author-box__button:hover {
+  border-color: var(--e-global-color-secondary);
+  color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-post-navigation span.post-navigation__prev--label {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-post-navigation span.post-navigation__next--label {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-post-navigation span.post-navigation__prev--label,
+.offerwall-widget-post-navigation span.post-navigation__next--label {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.offerwall-widget-post-navigation span.post-navigation__prev--title,
+.offerwall-widget-post-navigation span.post-navigation__next--title {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+}
+
+.offerwall-widget-post-info .offerwall-icon-list-item:not(:last-child):after {
+  border-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-post-info .offerwall-icon-list-icon i {
+  color: var(--e-global-color-primary);
+}
+
+.offerwall-widget-post-info .offerwall-icon-list-icon svg {
+  fill: var(--e-global-color-primary);
+}
+
+.offerwall-widget-post-info .offerwall-icon-list-text,
+.offerwall-widget-post-info .offerwall-icon-list-text a {
+  color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-post-info .offerwall-icon-list-item {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-sitemap .offerwall-sitemap-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-primary-font-size);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  line-height: var(--e-global-typography-primary-line-height);
+}
+
+.offerwall-widget-sitemap .offerwall-sitemap-item,
+.offerwall-widget-sitemap span.offerwall-sitemap-list,
+.offerwall-widget-sitemap .offerwall-sitemap-item a {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-sitemap .offerwall-sitemap-item {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-breadcrumbs {
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.offerwall-widget-blockquote .offerwall-blockquote__content {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-blockquote .offerwall-blockquote__author {
+  color: var(--e-global-color-secondary);
+}
+
+.offerwall-widget-lottie {
+  --caption-color: var(--e-global-color-text);
+}
+
+.offerwall-widget-lottie .e-lottie__caption {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-video-playlist .e-tabs-header .e-tabs-title {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tabs-header .e-tabs-videos-count {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tabs-header .e-tabs-header-right-side i {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tabs-header .e-tabs-header-right-side svg {
+  fill: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tab-title .e-tab-title-text {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-video-playlist .e-tab-title .e-tab-title-text a {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tab-title .e-tab-duration {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-items-wrapper
+  .e-tab-title:where(.e-active, :hover)
+  .e-tab-title-text {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-items-wrapper
+  .e-tab-title:where(.e-active, :hover)
+  .e-tab-title-text
+  a {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-items-wrapper
+  .e-tab-title:where(.e-active, :hover)
+  .e-tab-duration {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist .e-tabs-items-wrapper .e-section-title {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-inner-tabs
+  .e-inner-tabs-wrapper
+  .e-inner-tab-title
+  a {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-inner-tabs
+  .e-inner-tabs-content-wrapper
+  .e-inner-tab-content
+  .e-inner-tab-text {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-inner-tabs
+  .e-inner-tabs-content-wrapper
+  .e-inner-tab-content
+  button {
+  color: var(--e-global-color-text);
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.offerwall-widget-video-playlist
+  .e-tabs-inner-tabs
+  .e-inner-tabs-content-wrapper
+  .e-inner-tab-content
+  button:hover {
+  color: var(--e-global-color-text);
+}
+
+.offerwall-widget-paypal-button .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-paypal-button .offerwall-message {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-stripe-button .offerwall-button {
+  font-family: Montserrat, Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+  background-color: var(--e-global-color-accent);
+}
+
+.offerwall-widget-stripe-button .offerwall-message {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+.offerwall-widget-progress-tracker .current-progress-percentage {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-size: var(--e-global-typography-text-font-size);
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: var(--e-global-typography-text-line-height);
+}
+
+@media (max-width: 1024px) {
+  .offerwall-widget-heading .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-image .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-text-editor {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-divider .offerwall-divider__text {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-image-box .offerwall-image-box-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-image-box .offerwall-image-box-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-icon-box .offerwall-icon-box-title,
+  .offerwall-widget-icon-box .offerwall-icon-box-title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-icon-box .offerwall-icon-box-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-star-rating .offerwall-star-rating__title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-icon-list
+    .offerwall-icon-list-item
+    > .offerwall-icon-list-text,
+  .offerwall-widget-icon-list .offerwall-icon-list-item > a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-counter .offerwall-counter-number-wrapper {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-counter .offerwall-counter-title {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-progress .offerwall-title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-job {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-tabs .offerwall-tab-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-tabs .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-accordion .offerwall-accordion-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-accordion .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-toggle .offerwall-toggle-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-toggle .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-alert .offerwall-alert-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-alert .offerwall-alert-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-text-path {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-site-logo .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-site-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-page-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-post-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-post-excerpt .offerwall-widget-container {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-post-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-post-featured-image .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-archive-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__title,
+  .offerwall-widget-archive-posts .offerwall-post__title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__meta-data {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__excerpt p {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-pagination {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .e-load-more-message {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-posts-nothing-found {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__title,
+  .offerwall-widget-posts .offerwall-post__title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__meta-data {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__excerpt p {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-pagination {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-posts .e-load-more-message {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-portfolio .offerwall-portfolio-item__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-portfolio .offerwall-portfolio__filter {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-item__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-item__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-group > label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-type-html {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-group .offerwall-field,
+  .offerwall-widget-form .offerwall-field-subgroup label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login .offerwall-form-fields-wrapper label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login .offerwall-field-group .offerwall-field,
+  .offerwall-widget-login .offerwall-field-subgroup label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login
+    .offerwall-widget-container
+    .offerwall-login__logged-in-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-slides .offerwall-slide-heading {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-slides .offerwall-slide-description {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-nav-menu .offerwall-nav-menu .offerwall-item {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-animated-headline .offerwall-headline {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-animated-headline .offerwall-headline-dynamic-text {
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-hotspot .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-hotspot .e-hotspot__label {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-hotspot .e-hotspot__tooltip {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-header {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__heading {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__subheading {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-table
+    .offerwall-price-table
+    .offerwall-price-table__price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__original-price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__period {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__features-list li {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__additional_info {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__front
+    .offerwall-flip-box__layer__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__front
+    .offerwall-flip-box__layer__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__back
+    .offerwall-flip-box__layer__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__back
+    .offerwall-flip-box__layer__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-call-to-action .offerwall-cta__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-call-to-action .offerwall-cta__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__title {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-reviews .offerwall-testimonial__header,
+  .offerwall-widget-reviews .offerwall-testimonial__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-reviews .offerwall-testimonial__text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-table-of-contents .offerwall-toc__header,
+  .offerwall-widget-table-of-contents .offerwall-toc__header-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-table-of-contents .offerwall-toc__list-item {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-digits {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-label {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-expire--message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-search-form
+    input[type="search"].offerwall-search-form__input {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-search-form .offerwall-search-form__submit {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-author-box .offerwall-author-box__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-author-box .offerwall-author-box__bio {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-post-navigation span.post-navigation__prev--label,
+  .offerwall-widget-post-navigation span.post-navigation__next--label {
+    font-size: var(--e-global-typography-secondary-font-size);
+  }
+
+  .offerwall-widget-post-navigation span.post-navigation__prev--title,
+  .offerwall-widget-post-navigation span.post-navigation__next--title {
+    font-size: var(--e-global-typography-secondary-font-size);
+  }
+
+  .offerwall-widget-post-info .offerwall-icon-list-item {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-sitemap .offerwall-sitemap-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-sitemap .offerwall-sitemap-item,
+  .offerwall-widget-sitemap span.offerwall-sitemap-list,
+  .offerwall-widget-sitemap .offerwall-sitemap-item a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-breadcrumbs {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-lottie .e-lottie__caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist .e-tab-title .e-tab-title-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-items-wrapper
+    .e-tab-title:where(.e-active, :hover)
+    .e-tab-title-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-inner-tabs
+    .e-inner-tabs-wrapper
+    .e-inner-tab-title
+    a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-inner-tabs
+    .e-inner-tabs-content-wrapper
+    .e-inner-tab-content
+    .e-inner-tab-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-paypal-button .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-stripe-button .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-progress-tracker .current-progress-percentage {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+}
+
+@media (max-width: 767px) {
+  .offerwall-widget-heading .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-image .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-text-editor {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-divider .offerwall-divider__text {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-image-box .offerwall-image-box-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-image-box .offerwall-image-box-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-icon-box .offerwall-icon-box-title,
+  .offerwall-widget-icon-box .offerwall-icon-box-title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-icon-box .offerwall-icon-box-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-star-rating .offerwall-star-rating__title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-icon-list
+    .offerwall-icon-list-item
+    > .offerwall-icon-list-text,
+  .offerwall-widget-icon-list .offerwall-icon-list-item > a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-counter .offerwall-counter-number-wrapper {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-counter .offerwall-counter-title {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-progress .offerwall-title {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-testimonial .offerwall-testimonial-job {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-tabs .offerwall-tab-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-tabs .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-accordion .offerwall-accordion-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-accordion .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-toggle .offerwall-toggle-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-toggle .offerwall-tab-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-alert .offerwall-alert-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-alert .offerwall-alert-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-text-path {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-site-logo .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-site-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-page-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-post-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-theme-post-excerpt .offerwall-widget-container {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-post-content {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-post-featured-image .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-theme-archive-title .offerwall-heading-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__title,
+  .offerwall-widget-archive-posts .offerwall-post__title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__meta-data {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-post__excerpt p {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-pagination {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .e-load-more-message {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-archive-posts .offerwall-posts-nothing-found {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__title,
+  .offerwall-widget-posts .offerwall-post__title a {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__meta-data {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-post__excerpt p {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-posts .offerwall-pagination {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-posts .e-load-more-message {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-portfolio .offerwall-portfolio-item__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-portfolio .offerwall-portfolio__filter {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-item__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-item__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-gallery .offerwall-gallery-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-group > label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-type-html {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-field-group .offerwall-field,
+  .offerwall-widget-form .offerwall-field-subgroup label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-form .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login .offerwall-form-fields-wrapper label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login .offerwall-field-group .offerwall-field,
+  .offerwall-widget-login .offerwall-field-subgroup label {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-login
+    .offerwall-widget-container
+    .offerwall-login__logged-in-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-slides .offerwall-slide-heading {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-slides .offerwall-slide-description {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-nav-menu .offerwall-nav-menu .offerwall-item {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-animated-headline .offerwall-headline {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-animated-headline .offerwall-headline-dynamic-text {
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-hotspot .widget-image-caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-hotspot .e-hotspot__label {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-hotspot .e-hotspot__tooltip {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-header {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-list .offerwall-price-list-description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__heading {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__subheading {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-table
+    .offerwall-price-table
+    .offerwall-price-table__price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__original-price {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__period {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__features-list li {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-price-table .offerwall-price-table__additional_info {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__front
+    .offerwall-flip-box__layer__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__front
+    .offerwall-flip-box__layer__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__back
+    .offerwall-flip-box__layer__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-flip-box
+    .offerwall-flip-box__back
+    .offerwall-flip-box__layer__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-call-to-action .offerwall-cta__title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-call-to-action .offerwall-cta__description {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-testimonial-carousel .offerwall-testimonial__title {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-reviews .offerwall-testimonial__header,
+  .offerwall-widget-reviews .offerwall-testimonial__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-reviews .offerwall-testimonial__text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-table-of-contents .offerwall-toc__header,
+  .offerwall-widget-table-of-contents .offerwall-toc__header-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-table-of-contents .offerwall-toc__list-item {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-digits {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-label {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-countdown .offerwall-countdown-expire--message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-search-form
+    input[type="search"].offerwall-search-form__input {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-search-form .offerwall-search-form__submit {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-author-box .offerwall-author-box__name {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-author-box .offerwall-author-box__bio {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-post-navigation span.post-navigation__prev--label,
+  .offerwall-widget-post-navigation span.post-navigation__next--label {
+    font-size: var(--e-global-typography-secondary-font-size);
+  }
+
+  .offerwall-widget-post-navigation span.post-navigation__prev--title,
+  .offerwall-widget-post-navigation span.post-navigation__next--title {
+    font-size: var(--e-global-typography-secondary-font-size);
+  }
+
+  .offerwall-widget-post-info .offerwall-icon-list-item {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-sitemap .offerwall-sitemap-title {
+    font-size: var(--e-global-typography-primary-font-size);
+    line-height: var(--e-global-typography-primary-line-height);
+  }
+
+  .offerwall-widget-sitemap .offerwall-sitemap-item,
+  .offerwall-widget-sitemap span.offerwall-sitemap-list,
+  .offerwall-widget-sitemap .offerwall-sitemap-item a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-breadcrumbs {
+    font-size: var(--e-global-typography-secondary-font-size);
+    line-height: var(--e-global-typography-secondary-line-height);
+  }
+
+  .offerwall-widget-lottie .e-lottie__caption {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist .e-tab-title .e-tab-title-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-items-wrapper
+    .e-tab-title:where(.e-active, :hover)
+    .e-tab-title-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-inner-tabs
+    .e-inner-tabs-wrapper
+    .e-inner-tab-title
+    a {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-video-playlist
+    .e-tabs-inner-tabs
+    .e-inner-tabs-content-wrapper
+    .e-inner-tab-content
+    .e-inner-tab-text {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-paypal-button .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-stripe-button .offerwall-message {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+
+  .offerwall-widget-progress-tracker .current-progress-percentage {
+    font-size: var(--e-global-typography-text-font-size);
+    line-height: var(--e-global-typography-text-line-height);
+  }
+}
+
+/*! offerwall - v3.7.8 - 02-10-2022 */
+.offerwall-widget-text-editor.offerwall-drop-cap-view-stacked
+  .offerwall-drop-cap {
+  background-color: #818a91;
+  color: #fff;
+}
+
+.offerwall-widget-text-editor.offerwall-drop-cap-view-framed
+  .offerwall-drop-cap {
+  color: #818a91;
+  border: 3px solid;
+  background-color: transparent;
+}
+
+.offerwall-widget-text-editor:not(.offerwall-drop-cap-view-default)
+  .offerwall-drop-cap {
+  margin-top: 8px;
+}
+
+.offerwall-widget-text-editor:not(.offerwall-drop-cap-view-default)
+  .offerwall-drop-cap-letter {
+  width: 1em;
+  height: 1em;
+}
+
+.offerwall-widget-text-editor .offerwall-drop-cap {
+  float: left;
+  text-align: center;
+  line-height: 1;
+  font-size: 50px;
+}
+
+.offerwall-widget-text-editor .offerwall-drop-cap-letter {
+  display: inline-block;
+}
