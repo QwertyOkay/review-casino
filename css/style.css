@@ -819,7 +819,7 @@ body .is-layout-flex > * {
 
 dialog {
   background-color: #1c1d1d;
-  color: #fff;
+  color: #000;
 }
 
 .offer-image {
@@ -924,4 +924,13 @@ dialog {
   color: #e6e6e6;
   box-sizing: border-box;
   display: block;
+}
+
+.footer__domain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 15px 0px;
 }
