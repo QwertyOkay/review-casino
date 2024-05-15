@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -139,7 +139,8 @@
     src: url("") format('embedded-opentype'), url("Linearicons-Free.woff2") format('woff2'), url("Linearicons-Free.ttf") format('truetype'), url("Linearicons-Free.woff") format('woff'), url("") format('svg');
     font-weight: 400;
     font-style: normal
-}
+} */
+
 .offerwall-1264 .offerwall-element.offerwall-element-510cac33:not(.offerwall-motion-effects-element-type-background),
 .offerwall-1264 .offerwall-element.offerwall-element-510cac33>.offerwall-motion-effects-container>.offerwall-motion-effects-layer {
     /* background-image: url("../img/bg.png"); */

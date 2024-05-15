@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -172,7 +172,8 @@
     url("Linearicons-Free.woff") format("woff"), url("") format("svg");
   font-weight: 400;
   font-style: normal;
-}
+} */
+
 img.wp-smiley,
 img.emoji {
   display: inline !important;
