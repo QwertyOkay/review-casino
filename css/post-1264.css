@@ -856,7 +856,8 @@ body.rtl .offerwall-1264 .offerwall-element.offerwall-element-53fea444 .offerwal
     font-family: Montserrat, Sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.4em;
+    line-height: 1.2em;
+    font-size: 2em !important;
 }
 
 .offerwall-bc-flex-widget .offerwall-1264 .offerwall-element.offerwall-element-400363d6.offerwall-column .offerwall-widget-wrap {
