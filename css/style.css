@@ -843,8 +843,15 @@ dialog {
   font-size: 2em !important;
   color: #fff !important;
 }
+
 .offerwall-size-large {
-  font-size: 2em !important;
+  font-size: 1.3em !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .offerwall-size-large {
+    font-size: 2em !important;
+  }
 }
 
 .pulse {

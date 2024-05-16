@@ -297,6 +297,7 @@ h1.entry-title {
 @media (max-width: 767px) {
   .offerwall-section.offerwall-section-boxed > .offerwall-container {
     max-width: 767px;
+    min-height: 200px;
   }
 
   .e-container {
