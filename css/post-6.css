@@ -222,7 +222,8 @@
 }
 
 .offerwall-section.offerwall-section-boxed > .offerwall-container {
-  max-width: 1140px;
+  /* max-width: 1140px; */
+  max-width: 950px;
 }
 
 .e-container {

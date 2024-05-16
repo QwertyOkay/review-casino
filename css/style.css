@@ -830,7 +830,8 @@ dialog {
 }
 
 .offerwall-button-link:hover {
-  background-image: linear-gradient(90deg, #4ffed7 0%, #e862fa 100%) !important;
+  /* background-image: linear-gradient(90deg, #4ffed7 0%, #e862fa 100%) !important; */
+  transform: scale(1.1) !important;
 }
 
 .pay-more {
@@ -946,4 +947,9 @@ dialog {
 
 .starRating {
   height: 25px !important;
+}
+
+.bonusColor {
+  color: #ffd000;
+  font-weight: 600;
 }
