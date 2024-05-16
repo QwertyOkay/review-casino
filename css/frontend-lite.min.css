@@ -1140,9 +1140,9 @@ h1.entry-title {
   position: relative;
 }
 
-.offerwall-widget:not(:last-child) {
+/* .offerwall-widget:not(:last-child) {
   margin-bottom: 20px;
-}
+} */
 
 .offerwall-widget:not(:last-child).offerwall-absolute,
 .offerwall-widget:not(:last-child).offerwall-widget__width-auto,

@@ -229,9 +229,9 @@
   --container-max-width: 1140px;
 }
 
-.offerwall-widget:not(:last-child) {
+/* .offerwall-widget:not(:last-child) {
   margin-bottom: 20px;
-}
+} */
 
 .offerwall-element {
   --widgets-spacing: 20px;

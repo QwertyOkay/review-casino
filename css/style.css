@@ -935,3 +935,15 @@ dialog {
   font-size: 1.2em;
   padding: 15px 0px;
 }
+
+.newFlex {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row-reverse !important;
+  gap: 10px !important;
+}
+
+.starRating {
+  height: 25px !important;
+}
