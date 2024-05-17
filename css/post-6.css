@@ -223,7 +223,8 @@
 
 .offerwall-section.offerwall-section-boxed > .offerwall-container {
   /* max-width: 1140px; */
-  max-width: 950px;
+  /* max-width: 950px; */
+  max-width: 830px;
 }
 
 .e-container {
