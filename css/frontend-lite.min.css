@@ -3605,6 +3605,7 @@ ul.offerwall-icon-list-items.offerwall-inline-items .offerwall-inline-item {
 
 .offerwall-button span {
   text-decoration: inherit;
+  font-weight: 600;
 }
 
 .offerwall-element.offerwall-button-info .offerwall-button {

@@ -218,13 +218,14 @@
   color: var(--e-global-color-accent);
   background-color: transparent;
   border-radius: 8px 8px 8px 8px;
-  padding: 16px 32px 16px 32px;
+  /* padding: 16px 32px 16px 32px; */
+  padding: 20px 42px 20px 42px;
 }
 
 .offerwall-section.offerwall-section-boxed > .offerwall-container {
   /* max-width: 1140px; */
-  /* max-width: 950px; */
-  max-width: 830px;
+  max-width: 950px;
+  /* max-width: 830px; */
 }
 
 .e-container {
