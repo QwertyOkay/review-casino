@@ -832,6 +832,7 @@ body.rtl .offerwall-1264 .offerwall-element.offerwall-element-53fea444 .offerwal
 
 .offerwall-1264 .offerwall-element.offerwall-element-7c875bc0 img {
     width: 100%;
+    min-height: 185px;
 }
 
 .offerwall-1264 .offerwall-element.offerwall-element-7c875bc0>.offerwall-widget-container {
@@ -2147,6 +2148,7 @@ body.rtl .offerwall-1264 .offerwall-element.offerwall-element-64b58796 .offerwal
 .offerwall-1264 .offerwall-element.offerwall-element-20fbbbfe.offerwall-column.offerwall-element[data-element_type="column"]>.offerwall-widget-wrap.offerwall-element-populated {
     align-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .offerwall-1264 .offerwall-element.offerwall-element-10e05cdf {
