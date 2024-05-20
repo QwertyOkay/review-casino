@@ -833,6 +833,7 @@ body.rtl .offerwall-1264 .offerwall-element.offerwall-element-53fea444 .offerwal
 .offerwall-1264 .offerwall-element.offerwall-element-7c875bc0 img {
     width: 100%;
     min-height: 185px;
+    padding: 15px;
 }
 
 .offerwall-1264 .offerwall-element.offerwall-element-7c875bc0>.offerwall-widget-container {
@@ -4626,6 +4627,7 @@ body.rtl .offerwall-1264 .offerwall-element.offerwall-element-4de03396 .offerwal
 
     .offerwall-1264 .offerwall-element.offerwall-element-7cbeab31 img {
         width: 100%;
+        padding: 15px;
     }
 
     .offerwall-1264 .offerwall-element.offerwall-element-7cbeab31>.offerwall-widget-container {
