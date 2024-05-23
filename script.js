@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const updateDateElement = document.getElementById("update-date");
 
     // Задание начальной даты
-    const initialDate = new Date(2024, 4, 23); // Месяцы в JavaScript считаются с 0, поэтому май - это 4
+    const initialDate = new Date(2024, 4, 22); // Месяцы в JavaScript считаются с 0, поэтому май - это 4
 
     function getNextUpdateDate(startDate) {
         const nextUpdateDate = new Date(startDate);
-        nextUpdateDate.setDate(startDate.getDate() + 5); // Обновляем каждые 5 дней
+        nextUpdateDate.setDate(startDate.getDate() + 6); // Обновляем каждые 5 дней
         return nextUpdateDate;
     }
 
